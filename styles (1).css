@@ -1,0 +1,38 @@
+body {
+  font-family: "Brush Script MT", cursive;
+}
+summary {
+  cursor: pointer;
+  height: fit-content;
+  width: fit-content;
+  transition: transform 0.5s ease-in-out;
+}
+summary:hover {
+  background-color: white;
+  border-radius: 10px;
+  opacity: 0.5;
+  height: fit-content;
+  width: fit-content;
+  transform: translateY(-5px);
+}
+.fish {
+  margin-top: 0;
+  margin-left: 1%;
+  float: left;
+  display: flex;
+  word-wrap: normal;
+  
+}
+img {
+  float: left;
+  clear:both;
+  margin-bottom:15px;
+  align-items: left;
+  display: flex;
+}
+.fish2 {
+  margin-top: 0;
+  margin-left: 0;
+  float: left;
+  display: flex;
+}
